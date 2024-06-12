@@ -21,8 +21,8 @@ Tato webová stránka poskytuje hru "Kámen, Nůžky, Papír". Hráč může hr�
 ## Instalace
 **Klonování repozitáře**
     ```bash
-    git clone https://github.com/uzivatelske_jmeno/nazev_projektu.git
-    cd nazev_projektu
+    git clone https://github.com/mejtxd/rockpaperscissors.git
+    cd rockpaperscissors
     ```
 
 ## Struktura Projektu
