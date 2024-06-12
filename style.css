@@ -1,11 +1,11 @@
-/* ZÁKLADNÍ STYL */
+/* základní styl */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* TĚLO STRÁNKY */
+/* tělo stránky */
 body {
     font-family: Arial, sans-serif;
     background: #0a0909;
@@ -19,7 +19,7 @@ body {
     margin: 0;
 }
 
-/* HLAVIČKA STRÁNKY */
+/* hlavička stránky */
 header {
     background-color: #0c0d12;
     color: #2c5adb;
