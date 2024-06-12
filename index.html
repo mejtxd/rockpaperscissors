@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kámen, nůžky, papír</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Kámen, nůžky, papír</h1>
+    </header>
+    <main>
+        <section id="game">
+            <div class="scoreboard">
+                <div id="player-score-container">
+                    <p>Hráč: </p>
+                    <div id="player-score">0</div>
+                </div>
+                <div id="computer-score-container">
+                    <p>Počítač: </p>
+                    <div id="computer-score">0</div>
+                </div>
+            </div>
+            <div class="choices">
+                <button id="rock">
+                    <img src="stone.png" alt="Kámen">
+                </button>
+                <button id="paper">
+                    <img src="paper.png" alt="Papír">
+                </button>
+                <button id="scissors">
+                    <img src="scissors.png" alt="Nůžky">
+                </button>
+            </div>
+            <div id="result">
+                <p>Výsledek: <span id="result-text"></span></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Matyáš Jan Diviš</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
